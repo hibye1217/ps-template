@@ -2,10 +2,34 @@
 My template for Problem Solving / Competitive Programming.
 
 ## Disclaimer
-- This is a Team Note, not a Learning Blog.
+- This template is written, and based on C++.
+	- ... Unless otherwise specified.
 - Some codes are not tested, so use at your own risk.
 - English is not my first language, so read at your own risk.
 
-## Testing
-`$(p \wedge q) \vee (r \wedge s)$`: `$(p \vee r) \wedge (p \vee s) \wedge (q \vee r) \wedge (q \vee s)$`
-`$p$` and `$q$` are good
+## Currently...
+**Bold**: Finished  
+*Italic*: Practice Problem (a.k.a. Well-Known Problem)  
+
+- Programming Basics
+- Builtin, Standard Library
+- Mathematics
+	- Number Theory
+	- Combinatorics
+	- Probability Theory
+	- Geometry
+	- Linear Algebra
+	- Miscellaneous
+- Graph Theory
+	- Tree
+- Data Structure
+- Brute Force
+- Divide and Conquer
+	- Dynamic Programming
+- Greedy
+- String
+- Game Theory
+- Miscellanous
+	- Sorting
+	- Searching
+- Heuristics
