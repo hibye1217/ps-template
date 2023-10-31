@@ -7,5 +7,12 @@ My template for Problem Solving / Competitive Programming.
 - English is not my first language, so read at your own risk.
 
 ## Testing
-`$(p \wedge q) \vee (r \wedge s)$`: `$(p \vee r) \wedge (p \vee s) \wedge (q \vee r) \wedge (q \vee s)$`
-`$p$` and `$q$` are good
+- $(p \wedge q) \vee (r \wedge s)$: $(p \vee r) \wedge (p \vee s) \wedge (q \vee r) \wedge (q \vee s)$
+- $p$ and $q$ are good
+- $\int_{a}^{b} [x]_{(2)} dx$
+- $`\{a|a+1 \in S\}`$
+
+- $`(p \wedge q) \vee (r \wedge s)`$: $`(p \vee r) \wedge (p \vee s) \wedge (q \vee r) \wedge (q \vee s)`$
+- $`p`$ and $`q`$ are good
+- $`\int_{a}^{b} [x]_{(2)} dx`$
+- $`\{a|a+1 \in S\}`$
