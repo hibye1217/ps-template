@@ -32,11 +32,11 @@
 |       |    `->*`    |  `nod->*p`  |          struct/class pointer Member pointer access          |
 |  5 →  |     `*`     |    `a*b`    |                         $a \times b$                         |
 |       |     `/`     |    `a/b`    |    $a \div b$, round toward $0$ if operands are integer.     |
-|       |     `%`     |    `a%b`    |          $a \bmod b$, negative if $a \cdot b < 0$.           |
+|       |     `%`     |    `a%b`    |    $a \bmod b$, can be negative depending on the context.    |
 |  6 →  |     `+`     |    `a+b`    |                            $a+b$                             |
 |       |     `-`     |    `a-b`    |                            $a-b$                             |
-|  7 →  |    `>>`     |   `a>>b`    |   Bitwise Right Shift $a$ by $b$ bits. Added bits are $0$.   |
-|       |    `<<`     |   `a<<b`    |   Bitwise Left Shift $a$ by $b$ bits. Added bits are $0$.    |
+|  7 →  |    `>>`     |   `a>>b`    |         Logical Bitwise Right Shift $a$ by $b$ bits.         |
+|       |    `<<`     |   `a<<b`    |         Logical Bitwise Left Shift $a$ by $b$ bits.          |
 |  8 →  |    `<=>`    |      -      |                                                              |
 |  9 →  |     `<`     |    `a<b`    |                         is $a < b$?                          |
 |       |    `<=`     |   `a<=b`    |                        is $a \le b$?                         |
@@ -47,8 +47,8 @@
 | 11 →  |     `&`     |    `a&b`    |                         Bitwise AND                          |
 | 12 →  |     `^`     |    `a^b`    |                         Bitwise XOR                          |
 | 13 →  |     `|`     |    `a|b`    |                          Bitwise OR                          |
-| 14 →  |    `&&`     |   `a&&b`    | Logical AND. Short circuiting applies.<br />If $a$ is `false`, then $b$ does not evaluated. |
-| 15 →  |    `||`     |   `a||b`    | Logical OR. Short circuiting applies.<br />If $a$ is `true`, then $b$ does not evaluated. |
+| 14 →  |    `&&`     |   `a&&b`    | Logical AND. Short circuiting applies.<br />If $a$ is `false`, then $b$ is not evaluated. |
+| 15 →  |    `||`     |   `a||b`    | Logical OR. Short circuiting applies.<br />If $a$ is `true`, then $b$ is not evaluated. |
 | 16 ←  |   `?` `:`   |   `a?b:c`   |                     Ternary conditional                      |
 |       |   `throw`   |             |                                                              |
 |       | `co_yield`  |             |                                                              |
